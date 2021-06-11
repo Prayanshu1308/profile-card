@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: url("background.jpg") no-repeat center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.profile-card{
+    background-color: #2B3A49;
+    color: white;
+    display: inline-block;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.profile-pic{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.name{
+    margin: 15px 10px 0 10px;
+    font-size: 1.5rem;
+}
+.desc{
+    margin: 5px 10px 10px 10px;
+}
+
+.socials{
+    margin: 0 auto 0 auto;
+}
+
+.social-media{
+    width: 30px;
+}
+
+.contact{
+    color: #ff8882;
+    display: inline-block;
+    border: solid;
+    border-width: 2px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-color: #ff8882;
+    text-decoration: none;
+    
+}
+.contact:hover{
+    background-color: #ff8882;
+    color: #2B3A49;
+    font-size: 1.3rem;
+}
+
+.card-footer{
+    text-align: center;
+    background-color: #2b4f60;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item{
+    display: inline-block;
+    width: 100px;
+    padding: 25px 10px;
+}
+
+span{
+    display: block;
+    color: #ff8882;
+    font-size: 1.8rem;
+}
